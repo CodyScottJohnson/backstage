@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Dashboard
 metadata:
-  name: New Dashboard
+  name: dashboard
   description: Example Tableau Dashboard
 spec:
   type: dashboard

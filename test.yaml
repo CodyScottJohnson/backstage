@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Dashboard
 metadata:
   name: New Dashboard
-  description: Shuffle API
+  description: Example Tableau Dashboard
 spec:
-  type: service
-  lifecycle: production
-  owner: guest
+  type: dashboard
+  lifecycle: dev
+  owner: codysj

@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Dashboard
+kind: Component
 metadata:
   name: dashboard
   description: Example Tableau Dashboard
 spec:
-  type: dashboard
+  type: experimental
   lifecycle: dev
   owner: codysj

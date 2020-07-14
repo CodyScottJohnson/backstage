@@ -4,6 +4,6 @@ metadata:
   name: new-dashboard
   description: Artist Lookup
 spec:
-  type: service
-  lifecycle: experimental
-  owner: artists@example.com
+  type: visualization
+  lifecycle: production
+  owner: codysj

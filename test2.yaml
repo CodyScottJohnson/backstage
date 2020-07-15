@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Tool
+kind: Component
 metadata:
   name: new-dashboard
   displayName: BI Tableau CLI

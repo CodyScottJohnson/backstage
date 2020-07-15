@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Tool
 metadata:
   name: new-dashboard
-  project: Finance
-  description: New Dashboard For The Finance Team
+  displayName: BI Tableau CLI
+  description: Command line tool to manage tableau server
+  url: https://us-west-2.console.aws.amazon.com/codesuite/codecommit/repositories/bi-cli/setup?region=us-west-2
 spec:
-  type: visualization
+  type: tool
   lifecycle: production
   owner: codysj
